@@ -6,14 +6,14 @@ const path = require('path')
 const cors = require('cors')
 var bodyParser = require('body-parser');
 
+//Configura o body-parser para que seja possível obter dados do front-end
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-//Usa o handlebars como engine de renderização
-app.engine('handlebars', handlebars({defaultLayout: 'main'}))
-app.set('view engine', 'handlebars')
-
+//Configura o cors para que aceite solicitações de outras origens 
 app.use(cors())
+
+//Define a pasta cliente como a origem dos meus arquivos estáticos
 app.use(express.static(__dirname + '/client'))
 
 //Carrega os arquivos estáticos
