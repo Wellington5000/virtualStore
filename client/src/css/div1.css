@@ -1,0 +1,27 @@
+.div1 {
+  margin-top: 3%;
+  justify-content: center;
+  display: flex;
+}
+
+#labelDiv1 {
+  margin-top: 1%;
+}
+
+#row1{
+  border-radius: 5px;
+  margin-top: 2%;
+  margin-right: 3%;
+  background-color: rgb(95, 91, 38);
+  width: 25%;
+  height: 0.5px;
+}
+
+#row2{
+  border-radius: 5px;
+  margin-left: 3%;
+  margin-top: 2%;
+  background-color: rgb(95, 91, 38);
+  width: 25%;
+  height: 0.5px;
+}

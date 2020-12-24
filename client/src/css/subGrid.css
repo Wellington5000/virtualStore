@@ -1,0 +1,33 @@
+.subGrid{
+  justify-content: center;
+  display: flex;
+  margin: 6% 5%;
+  text-align: center;
+  font-size: 13px;
+}
+
+.subGrid .item1 {
+  margin-right: 3%;
+}
+
+.subGrid .item2 {
+  margin-right: 3%;
+}
+
+.subGrid .item3 {
+  margin-right: 3%;
+}
+
+.subGrid .item4 {
+  margin-right: 3%;
+}
+
+.subGrid .item5 {
+  margin-right: 3%;
+}
+
+.subGrid img{
+  border-radius: 20px;
+  width: 200px;
+  height: 150px;
+}

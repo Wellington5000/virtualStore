@@ -1,0 +1,47 @@
+body{
+  background-color: rgb(238, 232, 232);
+  overflow: -moz-hidden-unscrollable;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15% 1px;
+  margin-top: 5%;
+  margin-left: 9%;
+  font-family: Sans-serif;
+}
+
+.grid-item{
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  height: 100%;
+  width: 70%;
+  font-size: 13px;
+  overflow: hidden;
+}
+
+.image{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image img{
+  max-width: 100%;
+  max-height: 100%;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.grid-container .grid-item .labelItem{
+  margin-top: 6%;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.grid-container .grid-item .labelRight{
+  text-align: right;
+  margin-top: -21%;
+}

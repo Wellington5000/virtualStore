@@ -1,0 +1,16 @@
+.footer{
+  margin-top: 20%;
+  display: flex;
+  width: 20%;
+  margin: 2% auto;
+  justify-content: center;
+}
+
+.help{
+  margin-left: 60%;
+  margin-right: 60%;
+}
+
+.footer p{
+  font-size: 12px;
+}

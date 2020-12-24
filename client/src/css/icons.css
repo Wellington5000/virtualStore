@@ -1,0 +1,12 @@
+.icons {
+	position: absolute;
+	display: block;
+	margin-top: -25%;
+	margin-left: 10%;
+}
+
+.icons img{
+	margin: 2%;
+	width: 5%;
+	height: 5%;
+}
