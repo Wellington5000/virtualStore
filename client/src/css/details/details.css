@@ -30,6 +30,7 @@
 }
 
 .imgProduct .subImageProduct img{
+  cursor: pointer;
   border-radius: 10px;
   margin-left: 2%;
   margin-right: 2%;

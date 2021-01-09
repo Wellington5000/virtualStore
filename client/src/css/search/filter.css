@@ -1,0 +1,33 @@
+.filter {
+  text-align: left;
+  margin-top: 4%;
+  margin-left: 2%;
+  height: 50vh;
+  width: 55vw;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.filter dd{
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 14px;
+}
+
+.filter .itemsFilter {
+  margin-top: 10%;
+  margin-left: 10%;
+}
+
+.filter .itemsFilter strong{
+  font-size: 14px;
+}
+
+.filter .itemsFilter .genre{
+  margin-top: 10%;
+}
+
+.filter .itemsFilter p{
+  line-height: 0.5;
+  font-size: 12px;
+}

@@ -1,0 +1,50 @@
+.registerPanel{
+  display: flex;
+  margin: 2% auto;
+  width: 60%;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.registerPanel img{
+  border-radius: 10px 0px 0px 10px;
+  height: 78vh;
+  width: 30vw;
+}
+
+.registerPanel .formRegister{
+  position: relative;
+  margin: 10%;
+}
+
+.registerPanel #btnRegister{
+  background-color:  rgb(238, 232, 232);
+  margin-top: 12%;
+  width: 20vw;
+  height: 5.6vh;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  border: none;
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  color: rgba(0,0,0,0.80);
+}
+
+.registerPanel button{
+  width: 8vw;
+  margin-top: 5%;
+  font-size: 12px;
+}
+
+.registerPanel p{
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 20%;
+  height: 6%;
+  border-radius: 3px;
+  font-size: 12px;
+  width: 6vw;
+  text-align: center;
+}
+
+

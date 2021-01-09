@@ -1,15 +1,61 @@
-.carousel{
+.recomendationItems{
+  margin-top: 7%;
+}
+
+.recomendationItems h6{
+  margin-left: 5.5%;
+  margin-bottom: 1%;
+}
+
+.recomendationItems .carousel{
   overflow-x: hidden;
-  margin-left: 5%;
+  display: flex;
   font-family: Sans-serif;
   margin-bottom: 10%;
+  height: 32vh;
+}
+
+.carousel .grid-item{
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  height: 100%;
+  width: 70%;
+  font-size: 13px;
+  overflow: hidden;
+  margin-left: 10%;
+}
+
+.carousel .image{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.carousel .image img{
+  max-width: 100%;
+  max-height: 100%;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.carousel .grid-item .labelItem{
+  margin-top: 10%;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.carousel .grid-item .labelRight{
+  text-align: right;
+  margin-top: -29%;
 }
 
 ::-webkit-scrollbar-track {
   background-color: #F4F4F4;
 }
 ::-webkit-scrollbar {
-  width: 6px;
+  height: 0px;
+  width: 10px;
   background: #F4F4F4;
 }
 ::-webkit-scrollbar-thumb {

@@ -1,0 +1,27 @@
+.boxAdress{
+  margin: auto;
+  display: flex;
+  background-color: white;
+  width: 50vw;
+  border-radius: 5px;
+  height: 30vh;
+  overflow: auto;
+}
+
+.boxAdress .boxAdressItems{
+  margin-left: 5%;
+}
+
+.boxAdress .imageBoxAdress img{
+  width: 10vw;
+  height: 20vh;
+  margin-left: 90%;
+  margin-top: 15%;
+}
+
+.boxAdress #btnChange{
+  text-align: right;
+  color: blue;
+  cursor: pointer;
+  font-size: 11px;
+}

@@ -6,11 +6,12 @@ import Grid from './grid'
 import Div2 from './div2'
 import Footer from './footer'
 import SubGrid from './subGrid'
+import HeaderAux from './headerAux'
 
 const Home = () => {
   return (
     <div>
-      <Header />
+      <HeaderAux />
       <Slider />
       <Icons />
       <SubGrid />

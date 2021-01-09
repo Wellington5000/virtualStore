@@ -1,0 +1,23 @@
+.confirmSale .subTitle{
+  margin-top: 2%;
+  margin-left: 25%;
+}
+
+.confirmSale .btnSale{
+  margin: auto;
+  text-align: center;
+}
+
+.confirmSale .btnSale input{
+  margin-top: 2%;
+  background-color:  black;
+  color: white;
+  width: 20vw;
+  height: 5vh;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  border: none;
+}
+
+.confirmSale .btnSale #btnCancelSale{
+  margin-right: 30%;
+}

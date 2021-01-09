@@ -11,23 +11,34 @@ router.get('/', async (req, res) => {
 
 //LISTA OS PRODUTOS SIMILARES AO ESCOLHIDO DE ACORDO COM A SUA CATEGORIA
 router.post('/similar', async (req, res) => {
-  var similar = await Product.find({category: req.body.category})
+  var similar = await Product.find({ category: req.body.category })
   res.json(similar)
 })
 
 //CRIA PRODUTOS
-router.post('createProduct', async (req, res) => {
+router.get('/createProduct', async (req, res) => {
   await Product.create({
-    name: 'T-SHIRT MASCUINA',
-    value: 90,
-    amount: 30,
-    description: 'SOU UMA DESCRIÇÃO DO SEU PRODUTO',
-    brand: 'COLCCI',
-    category: 'CAMISA',
-    sizes: ['Pequeno','Médio','Grande', 'Extra Grande'],
-    images: ['./client/image']
+    name: 'Terno Elegancy',
+    value: 450,
+    amount: 10,
+    description: 'SOU UM TERNO',
+    brand: 'JONES',
+    category: 'TERNOS',
+    sizes: ['Pequeno', 'Médio', 'Grande'],
+    images: ['img3.jpg', 'img3.jpg', 'img1.jpg', 'img1.jpg', 'img1.jpg',]
   })
-  res.json({msg: 'success'})
+  res.json({ msg: 'success' })
+})
+
+router.post('/search', async (req, res) => {
+  let result = await Product.find({
+    $or: [
+      { name: { "$regex": req.body.data, "$options": "i" } },
+      { brand: { '$regex': req.body.data, '$options': 'i' } },
+      { category: { '$regex': req.body.data, '$options': 'i' } }
+    ]
+  })
+  res.json(result)
 })
 
 module.exports = router

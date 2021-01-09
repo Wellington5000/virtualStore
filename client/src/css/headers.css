@@ -1,0 +1,18 @@
+.fieldSearch input{
+  border: none;
+  padding: 10px;
+  border-radius: 70px;
+  border: none;
+  width: 30vw;
+}
+
+@media screen and (min-width: 500px) {
+  .itemsHeader {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .itemsHeader- {
+    float: none;
+  }
+}
